@@ -82,10 +82,8 @@ class HealthActuators:
     def perform_action(self, action):
         # Example: Print or log the action (in a real scenario, this might involve more complex actions)
         print(action)
-
 if __name__ == "__main__":
     patient_data = {'patient_id': 123, 'name': 'John Doe', 'age': 35}
-    
     health_sensors = HealthSensors()
     health_actuators = HealthActuators()
     
